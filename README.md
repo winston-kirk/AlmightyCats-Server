@@ -8,8 +8,8 @@ ClanCats Game - The server application
 * Cleanup project folder: ```make clean```
 * Execute with: ```make run```
 * Debug with gdb: ```make debug```
-* Install with: ```make install```
-* Uninstall with ```make uninstall```
+* Install with: ```sudo make install```
+* Uninstall with: ```sudo make uninstall```
 
 ## Windows build
 To be continued...

@@ -10,7 +10,7 @@ DEBUG_OPTION =
 # -------------------- #
 
 # Application -------- #
-APPLICATION_NAME = ClanCats-Server.out
+APPLICATION_NAME = clancats-server
 APPLICATION_TARGET = $(BINARIES_DIR)/$(APPLICATION_NAME)
 # -------------------- #
 
