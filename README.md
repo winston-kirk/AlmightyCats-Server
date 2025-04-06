@@ -13,3 +13,6 @@ ClanCats Game - The server application
 
 ## Windows build
 To be continued...
+
+## Project Discord
+https://discord.com/invite/V6fMXEDDZx
