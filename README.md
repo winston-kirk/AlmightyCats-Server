@@ -2,7 +2,7 @@
 ClanCats Game - The server application
 
 ## Linux build
-* To compile the application, you need the boost development packages: ```apt install libboost-all-dev```
+* To build the application, you need to install this packages: ```apt install libboost-all-dev libssl-dev nlohmann-json3-dev```
 * Build with: ```make```
 * Build with debug option: ```make dbg=1```
 * Cleanup project folder: ```make clean```

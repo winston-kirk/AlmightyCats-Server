@@ -3,7 +3,7 @@ COMPILER = g++
 CPP_VERSION = -std=c++2b
 COMPILER_FLAGS = $(CPP_VERSION) -MMD -MP -I $(INCLUDES_DIR)
 LINKER_FLAGS =
-LINKER_LIBRARIES = -pthread
+LINKER_LIBRARIES = -pthread -lssl -lcrypto
 
 dbg = 0
 DEBUG_OPTION =
@@ -74,7 +74,7 @@ debug: all
 
 # Build the binary from the object files
 $(APPLICATION_TARGET): $(OBJECT_FILES)
-	$(COMPILER) $(LINKER_FLAGS) $(LINKER_LIBRARIES) $^ -o $@ 
+	$(COMPILER) $(LINKER_FLAGS) $^ -o $@ $(LINKER_LIBRARIES)
 
 # Build all object files from the source
 $(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.cpp $(INCLUDES_DIR)/%.h $(GENERAL_INCLUDE_FILES)
