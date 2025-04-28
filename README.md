@@ -1,5 +1,5 @@
-# ClanCats-Server
-ClanCats Game - The server application
+# Almighty Cats - Server
+Almighty Cats Game - The server application
 
 ## Linux build
 * To build the application, you need to install this packages: ```apt install libboost-all-dev libssl-dev nlohmann-json3-dev```
